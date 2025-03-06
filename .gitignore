@@ -1,0 +1,103 @@
+# Node.js / TypeScript specific
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+.pnpm-debug.log
+.npm
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+.tscache/
+*.js.map
+*.d.ts
+lib/
+lib-esm/
+.vercel
+
+# Azure specific
+.azure/
+.deployment
+.env.azure
+azure-functions-core-tools/
+local.settings.json
+bin/
+obj/
+appsettings.*.json
+.funcignore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# IDE and editors
+.idea/
+.vscode/
+*.code-workspace
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+report.*.json
+
+# Debug
+.ndb/
+.inspect/
+
+# Dependency lock files (keep one based on your package manager)
+# package-lock.json - uncomment to ignore
+# yarn.lock - uncomment to ignore
+# pnpm-lock.yaml - uncomment to ignore
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Cache
+.eslintcache
+.cache/
+.turbo/
+
+# Local configurations
+*.local.*
+config.local.js
+config.local.ts
+
+# Misc
+.DS_Store
+.history/
+.log/
+*.pid
+*.seed
+*.pid.lock
