@@ -19,6 +19,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@azure/ai-form-recognizer": "^5.0.0",
     "@azure/cosmos": "^4.2.0",
     "@azure/functions": "^4.6.1",
     "@azure/storage-blob": "^12.26.0",
